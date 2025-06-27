@@ -4,6 +4,16 @@ A handcrafted image-based recommendation engine built entirely using **NumPy**, 
 
 Upload an image of a dress, sketch, or outfit — and the model finds the most visually similar item from a preloaded dataset.  
 No TensorFlow. No PyTorch. Just clean logic and layers.
+---
+
+### 📥 Download Datasets (Google Drive)
+
+| Dataset         | Description                   | Drive Link                                                                     |
+|-----------------|-------------------------------|--------------------------------------------------------------------------------|
+| Train_images.zip| Fashion-MNIST training images | [Link](https://drive.google.com/file/d/11UFr3YwO5XH0h6na7NigjNwg9PyaabIQ/view) |
+| t10k_images.zip | Fashion-MNIST training images | [Link](https://drive.google.com/file/d/119Y3tZlfwXlZnynO5_lkWRIs6DpALhfm/view) |
+|Train_labels.zip | Fashion-MNIST train labels    | [Link](https://drive.google.com/file/d/117sAuayr51xIphdtRy2QgC2T7zu0ztRN/view) |
+| t10k_labels.zip | Fashion-MNIST test labels     | [Link](https://drive.google.com/file/d/117YGlvjB2IGsz4sWBO3RTDKy7ASWBaUR/view) |
 
 ---
 
@@ -49,7 +59,7 @@ No TensorFlow. No PyTorch. Just clean logic and layers.
 ### 🧪 Training & Testing (Google Colab)
 
 1. Load the notebook
-2. Train the CNN model on MNIST/Fashion-MNIST
+2. Train the CNN model on MNIST/Fashion-MNIST dataset provided in readme.
 3. Precompute feature vectors
 4.Returns with:
 match_base64: base64 encoded closest-match image
