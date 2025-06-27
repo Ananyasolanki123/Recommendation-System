@@ -1,4 +1,4 @@
-# 🧠 Fashion Image Recommendation System (NumPy CNN + Flask)
+# 🧠 Fashion Image Recommendation System (NumPy CNN)
 
 A handcrafted image-based recommendation engine built entirely using **NumPy**, served via a **Flask API**, and integrated into the **Style Studio** fashion app.
 
